@@ -1,6 +1,6 @@
 import { Rule } from 'eslint';
 
-const rule: Rule.RuleModule = {
+const requireUseServer: Rule.RuleModule = {
 	meta: {
 		type: 'problem',
 		docs: {
@@ -44,4 +44,4 @@ const rule: Rule.RuleModule = {
 	},
 };
 
-export = rule;
+export { requireUseServer };
