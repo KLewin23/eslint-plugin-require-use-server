@@ -6,6 +6,9 @@
 	"author": "KLewin23",
 	"type": "commonjs",
 	"main": "./dist/index.js",
+	"files": [
+		"dist"
+	],
 	"repository": {
 		"url": "https://github.com/KLewin23/eslint-plugin-require-use-server"
 	},

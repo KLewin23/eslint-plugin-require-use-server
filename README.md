@@ -1,4 +1,4 @@
-# eslint-plugin-use-server-top-level
+# eslint-plugin-require-use-server
 
 Custom ESLint rule to ensure specified files start with `use server`.
 
@@ -22,7 +22,7 @@ npm install eslint-plugin-require-use-server --save-dev
 1. Import the plugin in your ESLint config (e.g. `eslint.config.mjs`):
 
 ```js
-import useServerPlugin from '@leo-tools/eslint-plugin-use-server-top-level';
+import useServerPlugin from 'eslint-plugin-require-use-server';
 
 export default [
   {
