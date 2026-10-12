@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es2025",
+        "module": "nodenext",
+        "declaration": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "moduleResolution": "node16",
+        "esModuleInterop": true
+    }
+}
