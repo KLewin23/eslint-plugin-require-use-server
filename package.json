@@ -1,11 +1,11 @@
 {
 	"name": "eslint-plugin-require-use-server",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "",
 	"license": "ISC",
 	"author": "KLewin23",
 	"type": "commonjs",
-	"main": "index.js",
+	"main": "./dist/index.js",
 	"repository": {
 		"url": "https://github.com/KLewin23/eslint-plugin-require-use-server"
 	},
