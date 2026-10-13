@@ -1,3 +1,4 @@
+import type { ESLint } from 'eslint';
 import { requireUseServer } from './require-use-server';
 
 const { name, version } =
@@ -5,7 +6,7 @@ const { name, version } =
 	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	require('../package.json') as typeof import('../package.json');
 
-const plugin = {
+const plugin: ESLint.Plugin = {
 	meta: {
 		name,
 		version,
@@ -16,4 +17,4 @@ const plugin = {
 	},
 };
 
-export default plugin;
+export = plugin;
