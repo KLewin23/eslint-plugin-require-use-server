@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-require-use-server",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "",
 	"license": "ISC",
 	"author": "KLewin23",
@@ -9,6 +9,7 @@
 	"files": [
 		"dist"
 	],
+	"keywords": ["eslint", "eslintplugin", "eslint-plugin"],
 	"repository": {
 		"url": "https://github.com/KLewin23/eslint-plugin-require-use-server"
 	},
@@ -24,6 +25,9 @@
 		"eslint": "^10.12.0",
 		"prettier": "^3.9.10",
 		"typescript": "^7.0.2"
+	},
+	"peerDependencies": {
+		"eslint": "^9.0.0 || ^10.0.0-0"
 	},
 	"config": {
 		"commitizen": {

@@ -9,6 +9,7 @@ const plugin = {
 	meta: {
 		name,
 		version,
+		namespace: 'require-use-server'
 	},
 	rules: {
 		'require-use-server': requireUseServer,
